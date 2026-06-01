@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Hermes-Hinata",
+    "slug": "hermes-hinata4",
+    "version": "0.1.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.jakobbasti8.hermeshinata"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jakobbasti8.hermeshinata",
+      "minSdkVersion": 30,
+      "targetSdkVersion": 34
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-file-system"
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
